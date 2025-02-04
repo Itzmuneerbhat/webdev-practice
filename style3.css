@@ -1,0 +1,31 @@
+div{
+    
+    width: 500px;
+    background-color: hotpink;
+    border-width: 5px;
+    border-style:solid ;
+    border-color: rgb(74, 148, 148);
+    border-radius: 25px;
+    padding-top: 10px;
+}
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    width: 500px;
+ border-bottom-color: green;
+ border-top-style: groove;
+}
+
+button{
+    border: 2px solid rgb(37, 170, 177);
+    border-radius : 30px;
+    background-color: rgb(157, 91, 219);
+    padding-left: 5px;
+    padding-right: 5px;
+   
+}
+
+button :hover{
+    background-color: rgb(149, 141, 184);
+}

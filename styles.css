@@ -1,0 +1,70 @@
+  /* universal selector */
+  *{
+      font-family: 'Courier New';
+
+   }
+
+   /* element selector */
+   h1{
+     color: #b92b27;
+    }
+
+    /* id selector */
+
+   #login{
+     background-color: rgb(221, 145, 145);
+     border-radius: 35%;
+    }
+ 
+   #signup{
+     background-color:rgb(221, 145, 145) ;
+     border-radius: 35%;
+   }
+
+   /* class selector */
+
+  .upvote{
+     background-color: #b92b27;
+     color: white;
+    }
+   .answer{
+     background-color: rgb(163, 213, 163);
+     color:rgb(80, 71, 71) ;
+   }
+
+    /* attribute selector */
+
+   input[type="text"]{
+    color: red;
+   }
+   input[type ="password"]{
+    color:green;
+   }
+
+  #myid p{
+    background-color: rgb(127, 148, 127);
+   }
+   button:hover{
+    background-color: black;
+    color: aqua;
+   }
+   h3:hover{
+    text-decoration: overline;
+   }
+
+   button:active{
+    background-color: hotpink;
+
+   }
+   input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+   }
+   div:nth-of-type(1){
+    background-color: rgb(150, 131, 96);
+   };
+   /* pseudo element */
+   p::selection {
+    color: rgb(10, 148, 187);
+    background-color: rgb(196, 21, 62);
+   }
